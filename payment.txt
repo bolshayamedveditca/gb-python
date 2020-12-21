@@ -1,0 +1,6 @@
+petrov 23000
+ivanov 45000
+semenov 10000
+sidorov 15000
+smirnoff 12000
+tinkoff 5000

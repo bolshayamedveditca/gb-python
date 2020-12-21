@@ -1,0 +1,6 @@
+newyear = open('newyear.txt', 'r+')
+line = newyear.readlines()
+print(f'{len(line)} строк')
+words = sum([len(i.split(' ')) for i in line])
+print(f'{words} слов')
+newyear.close()

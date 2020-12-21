@@ -1,0 +1,5 @@
+inglish: 12(lab) 10(pr)  -  20(aud)
+biology: 15(lab) 15(pract)
+chemestry: 20(lab) 15(theor) 10(pract)
+math: 15(theor) 10(pract)
+music: 10(theor)  - 15(glee) 20(sing)
