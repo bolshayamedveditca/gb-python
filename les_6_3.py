@@ -25,4 +25,8 @@ print(sys.getrefcount(summa[0]))# 24 - не меняется в зависимо
 print(sys.getrefcount(i))       # 182 - меняется не существенно в зависимости от вводимых данных
 print(sys.getrefcount(s))       # 19 - меняется в пределах 100
 
+print(sys.getsizeof(str1) + sys.getsizeof(str2) + sys.getsizeof(summa) + sys.getsizeof(i) + sys.getsizeof(s))
+# 894 byte (на одном наборе данных для всех вариантов) - также самый неэффективный вариант
 # по количеству ссылок это самый не эффективный вариант
+
+#pithon 3.7.9 windows 10 64
